@@ -19,19 +19,20 @@
                 <div id="digit7" v-on:click="append('7')">7</div>
                 <div id="digit8" v-on:click="append('8')">8</div>
                 <div id="digit9" v-on:click="append('9')">9</div>
-                <div id="digit+" v-on:click="add">+</div>
                 <div id="digit4" v-on:click="append('4')">4</div>
                 <div id="digit5" v-on:click="append('5')">5</div>
                 <div id="digit6" v-on:click="append('6')">6</div>
-                <div id="digit-" v-on:click="minus">-</div>
                 <div id="digit1" v-on:click="append('1')">1</div>
                 <div id="digit2" v-on:click="append('2')">2</div>
                 <div id="digit3" v-on:click="append('3')">3</div>
-                <div id="digit*" v-on:click="times">*</div>
                 <div id="digit0" v-on:click="append('0')">0</div>
+                <div id="digit+" v-on:click="add">+</div>
+                <div id="digit-" v-on:click="minus">-</div>
+                <div id="digit*" v-on:click="times">*</div>
+                <div id="digit/" v-on:click="divide">/</div>
                 <div class="clear" v-on:click="clear()">C</div>
                 <div id="equal" v-on:click="equal()">=</div>
-                <div id="digit/" v-on:click="divide">/</div>
+                
             </div>
         </div>
     </div>
